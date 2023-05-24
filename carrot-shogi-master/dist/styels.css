@@ -1,0 +1,33 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  
+  .container {
+    position: absolute;
+    left: 50%;
+    width: 572px;
+    margin-left: -286px;
+    margin-top: 10px;
+  }
+  
+  #game {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  
+  .svg-button {
+    cursor: pointer;
+  }
+  
+  .piece {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  [v-cloak] {
+    display: none;
+  }
